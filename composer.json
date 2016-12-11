@@ -1,0 +1,25 @@
+{
+    "name": "marcomdmj/datauri",
+    "description": "Data URI Parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MarcoMdMj",
+            "email": "marcomdmj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarcoMdMj\\DataURI\\": "src"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
